@@ -1,3 +1,5 @@
+@use "../variaveis";
+
 .button {
   padding: 12px;
   font-size: 18px;
@@ -6,8 +8,8 @@
   white-space: nowrap;
 
   &--primary {
-    color: #fff;
-    background-color: #4f2ac3;
+    color: variaveis.$textColor;
+    background-color: variaveis.$buttonBackgroundColor;
   }
 
   @media (max-width: 640px) {
